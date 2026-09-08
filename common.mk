@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit from scx35-common device configuration
-$(call inherit-product, device/samsung/scx35-common/common.mk)
+$(call inherit-product, device/lenovo/scx35-common/common.mk)
 
 # Inherit scx30g2-common vendor tree
-$(call inherit-product-if-exists, vendor/samsung/scx30g2-common/scx30g2-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/scx30g2-common/scx30g2-common-vendor.mk)
 
 # Rootdir
 PRODUCT_PACKAGES += \

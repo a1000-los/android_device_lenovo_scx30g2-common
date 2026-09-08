@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit from SCX35 common configs
--include device/samsung/scx35-common/BoardConfigCommon.mk
+-include device/lenovo/scx35-common/BoardConfigCommon.mk
 
 # RIL
-BOARD_RIL_CLASS += ../../../device/samsung/scx30g2-common/ril
+BOARD_RIL_CLASS += ../../../device/lenovo/scx30g2-common/ril
 
 # Graphics
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
@@ -24,10 +24,10 @@ TARGET_FORCE_SCREENSHOT_CPU_PATH := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 # System properties
-TARGET_SYSTEM_PROP += device/samsung/scx30g2-common/system.prop
+TARGET_SYSTEM_PROP += device/lenovo/scx30g2-common/system.prop
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/scx30g2-common/rootdir/fstab.sc8830
+TARGET_RECOVERY_FSTAB := device/lenovo/scx30g2-common/rootdir/fstab.sc8830
 
 # Hardware-specific
 SOC_SCX30G_V2 := true
